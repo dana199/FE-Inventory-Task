@@ -1,6 +1,0 @@
-id,name,quantity,price,category
-10,Laptop,5,1200,electronics
-11,Chair,10,80,furniture
-12,Pen,-5,1,office
-13,Notebook,20,5,invalid-category
-14,Mouse,3,25,electronics

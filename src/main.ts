@@ -2,6 +2,7 @@ import { InsufficientStockError, ItemNotFoundError } from "./errors/InventoryErr
 import { InventoryManager } from "./managers/InventoryManager";
 
 async function initializeInventory() {
+    //Initialize 
     const manager = await InventoryManager.create();
     console.log("Inventory Manager initialized:", manager);
 
